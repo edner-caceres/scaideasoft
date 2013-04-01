@@ -14,7 +14,7 @@
 	<tr>
 		<td><?php echo h($feature['Feature']['id']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($feature['Piece']['piece_name'], array('controller' => 'pieces', 'action' => 'view', $feature['Piece']['id'])); ?>
+			<?php echo $this->Html->link($feature['Piece']['full_name'], array('controller' => 'pieces', 'action' => 'view', $feature['Piece']['id'])); ?>
 		</td>
 		<td><?php echo h($feature['Feature']['feature_name']); ?>&nbsp;</td>
 		<td><?php echo h($feature['Feature']['feature_value']); ?>&nbsp;</td>
